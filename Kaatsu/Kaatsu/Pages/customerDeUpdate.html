@@ -99,7 +99,7 @@
             }
 
             console.log(customer)
-            ajaxCall("PUT", "../api/customer", JSON.stringify(customer), postSuccessCustomer, postErrorCustomer)
+            ajaxCall("PUT", "../api/customer", JSON.stringify(customer), postSuccessUpCustomer, postErrorUpCustomer)
 
             updateCust = customer
             localStorage.setItem('customer', JSON.stringify(updateCust))
